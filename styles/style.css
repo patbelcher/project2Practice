@@ -1,0 +1,147 @@
+@charset "utf-8";
+body {
+	color: #191919;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 25px;
+	background-image: url(../images/bokeh.jpg);
+	background-size: cover;
+}
+
+#container {
+	width: 768px;
+	height: auto;
+	background-color: white;
+	
+	margin:auto;
+}
+
+
+
+
+
+header {
+	width: 768px;
+	height: 250px;
+	background-image: url(../images/header.jpg);
+}
+nav {
+	width: 768px;
+	height: 50px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 20px;
+}
+nav ul {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav li {
+	display: inline;
+	list-style-type: none;
+	width: 60px;
+	margin-right: 40px;
+}
+
+/* custom navbar links */
+nav a:link {
+	color: #6BE7FF;
+	text-decoration: none;
+	padding: 5px;
+}
+nav a:visited {
+	text-decoration: none;
+	color: #E01346;
+	padding: 5px;
+}
+nav a:hover {
+	text-decoration: underline;
+	color: #1DBB25;
+	font-family: impact;
+	background-color:aquamarine;
+	border: thin #1722F3 solid;
+	border-radius: 10px;
+	padding: 5px;
+}
+nav a:active {
+	text-decoration: none;
+	
+	padding: 5px;
+	background-color: blue;
+	color:antiquewhite;
+	border: thin black solid;
+	border-radius: 25px;
+	
+}
+
+
+
+
+
+/*floated aside to the left*/
+aside {
+	width: 150px;
+	float: left;
+	background-color: #DDDDDD;
+	height: 1050px;
+}
+
+aside h3 {
+	font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+}
+
+
+
+
+/*reduced with by 150 px and floated to the left*/
+main {
+	width: 598px;
+	padding: 10px;
+	float: left;
+}
+
+img {
+	padding: 5px;
+	float: right;
+}
+#floatImageLeft {
+	float: left;
+
+}
+.floatImageLeft {
+	float: left;
+}
+
+
+
+
+article {
+	margin-bottom: 10px;
+}
+
+article h1 {
+	font-family: mic-32-new-web, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 30px;
+	color: #6BE7FF;
+}
+
+article p {
+	font-family: dico-typewriter-slab, mono;
+	font-weight: 400;
+    font-style: normal;
+	font-size: 16px;
+}
+
+/*footer uses clear both to stop the floats*/
+footer {
+	width: 768px;
+	height: 50px;
+	clear: both;
+	background-color: #D0A40C;
+}
